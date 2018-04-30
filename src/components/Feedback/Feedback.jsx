@@ -1,21 +1,22 @@
 import React from 'react';
-
 import Header from '../CommonDumbComponents/Header';
 
-class HomePageComponent extends React.Component {
+class Feedback extends React.Component {
     constructor(props) {
         super(props);
 
+        this.state = {
+
+        }
     }
 
     render() {
         return (
-            <div className="Home" >
-                <Header selected={'home'} />
+            <div className="Feedback" >
+                <Header selected={'feedback'} />
             </div>
         )
     }
-
 }
 
-export default HomePageComponent;
+export default Feedback;
